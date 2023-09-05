@@ -1,0 +1,8 @@
+[package]
+name = "standard_os"
+version = "0.1.0"
+edition = "2018"
+authors = ["Igor Tiburcio Cavalcanti <igor.tiburcio.cs@gmail.com>"]
+
+[dependencies]
+bootloader = "0.9.23"
