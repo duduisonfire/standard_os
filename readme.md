@@ -8,12 +8,7 @@ This implementing uses rust.
 To compile this program RUN.
 
 ```bash
-cargo bootimage
-```
-and RUN this command to execute a Virtual Machine with QEMU.
-
-```bash
-sudo qemu-system-x86_64 -drive format=raw,file=./target/x86_64-standard_os/debug/bootimage-standard_os.bin
+cargo run
 ```
 
 If you use Windows visit the QEMU Docs on: [QEMU Docs](https://www.qemu.org/docs/master/)
